@@ -1,0 +1,30 @@
+.wrapper {
+  background-color: #5a5c66;
+  width: 58.5%;
+  align-items: center;
+  padding-right: 1.5%;
+  padding-left: 2%;
+  margin-bottom: 15px;
+  flex-wrap: nowrap;
+}
+
+.input {
+  background-color: inherit;
+  width: 95%;
+  height: 52px;
+  border: none;
+  color: #b2b7bf;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 137.687%;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #b2b7bf;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 137.687%;
+}

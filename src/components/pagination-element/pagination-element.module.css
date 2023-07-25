@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  list-style: none;
+  color: #474955;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 137.687%;
+  max-width: 98%;
+  margin: 0;
+  padding-left: 44px;
+}
+
+.page_container {
+  display: flex;
+  gap: 11px;
+}
+
+.item {
+  color: #7ebc3c;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 137.687%;
+}
+
+.item a {
+  color: #474955;
+}
