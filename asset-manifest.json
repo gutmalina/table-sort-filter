@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/table-sort-filter/static/css/main.f9642dcf.css",
+    "main.js": "/table-sort-filter/static/js/main.61e6ae04.js",
+    "index.html": "/table-sort-filter/index.html",
+    "main.f9642dcf.css.map": "/table-sort-filter/static/css/main.f9642dcf.css.map",
+    "main.61e6ae04.js.map": "/table-sort-filter/static/js/main.61e6ae04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9642dcf.css",
+    "static/js/main.61e6ae04.js"
+  ]
+}
