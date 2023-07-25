@@ -1,11 +1,9 @@
 import styles from "./pagination-element.module.css";
 import Pagination from "react-bootstrap/Pagination";
-import { useSelector } from "react-redux";
 import { COUNT_ROW_PAGE, BTN_BACK, BTN_NEXT } from "../../utils/constant";
 import { useState } from "react";
 
 const PaginationElement = ({ setActivePage, activePage, renderUsers }) => {
-  const users = useSelector((store) => store.users.users);
   const countAllPages = renderUsers?.length / COUNT_ROW_PAGE;
   const [disabledNext, setDisabledNext] = useState(false);
   const [disabledPrev, setDisabledPrev] = useState(false);

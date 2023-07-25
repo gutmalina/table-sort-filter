@@ -15,8 +15,11 @@ const App = () => {
 
   return (
     <>
-      <Routes>        
-        <Route path={PATH_HOME} element={<Navigate to={PATH_TABLE} replace />} />
+      <Routes>
+        <Route
+          path={PATH_HOME}
+          element={<Navigate to={PATH_TABLE} replace />}
+        />
         <Route path={PATH_TABLE} element={<Main />} />
       </Routes>
     </>

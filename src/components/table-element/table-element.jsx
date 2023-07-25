@@ -37,19 +37,20 @@ const TableElement = ({ wordSearch }) => {
   };
 
   const renderArr = () => {
-    return renderUsers?.length && renderUsers.slice(firstIndexPage, lastIndexPage);
+    return (
+      renderUsers?.length && renderUsers.slice(firstIndexPage, lastIndexPage)
+    );
   };
 
   useEffect(() => {
     wordSearch &&
       setRenderUsers(
-        users
-          .filter(
-            (item) =>
-              item.title.includes(wordSearch) ||
-              item.body.includes(wordSearch) ||
-              (item.id + "").includes(wordSearch)
-          )
+        users.filter(
+          (item) =>
+            item.title.includes(wordSearch) ||
+            item.body.includes(wordSearch) ||
+            (item.id + "").includes(wordSearch)
+        )
       );
   }, [wordSearch, users]);
 
@@ -85,14 +86,15 @@ const TableElement = ({ wordSearch }) => {
           </tr>
         </thead>
         <tbody>
-          {renderArr() &&
-            renderArr().map((item, index) => (
-              <tr key={item.id} className={styles.row}>
-                <td>{item.id}</td>
-                <td>{item.title}</td>
-                <td>{item.body}</td>
-              </tr>
-            ))}
+          {renderArr()
+            ? renderArr().map((item, index) => (
+                <tr key={item.id} className={styles.row}>
+                  <td>{item.id}</td>
+                  <td>{item.title}</td>
+                  <td>{item.body}</td>
+                </tr>
+              ))
+            : null}
         </tbody>
       </Table>
       <PaginationElement

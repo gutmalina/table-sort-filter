@@ -1,9 +1,9 @@
-import styles from './input-element.module.css';
+import styles from "./input-element.module.css";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
-import IconSearch from '../../images/IconSearch';
+import IconSearch from "../../images/IconSearch";
 
-const InputElement = ({setWordSearch}) => {
+const InputElement = ({ setWordSearch }) => {
   const handleChange = (e) => {
     setWordSearch(e.target.value);
   };
@@ -14,13 +14,13 @@ const InputElement = ({setWordSearch}) => {
         <Form.Control
           id="search"
           onChange={handleChange}
-          placeholder='Поиск'
+          placeholder="Поиск"
           bsPrefix={styles.input}
         />
-        <IconSearch/>
+        <IconSearch />
       </InputGroup>
     </>
   );
-}
+};
 
 export default InputElement;
