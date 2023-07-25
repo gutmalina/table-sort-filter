@@ -1,7 +1,7 @@
 # Тестовое задание на вакансию Frontend-разработчик
 
 <p padding="0" align="center">~~~~~~~~~~</p>
-<a  href="https://gutmalina.github.io/route-display/" target="_blank" align="center"><img src="./readme/videogift.gif" width="100%" alt="Демо"></a>
+<a  href="https://gutmalina.github.io/table-sort-filter/" target="_blank" align="center"><img src="./readme/videogift.gif" width="100%" alt="Демо"></a>
 <p padding="0" align="center">~~~~~~~~~~</p>
 
 ### Стэк:
@@ -14,7 +14,7 @@
 ### Задание:
 Реализовать spa в соответствии с предложенным макетом, в котором будет представлена таблица с данными пользователей и возможностью сортировки и поиска.
 
-## Общие требования:
+### Общие требования:
 * Приложение должно работать в chrome и firefox. 
 * Разрешается использовать UI фреймворки по типу bootstrap.
 * Код должен быть чистым и читабельным. 
@@ -25,10 +25,10 @@
 * Плюсом будет использование глобального state менеджера redux.
 * Приложение должно быть адаптировано под различные устройства.
 
-## Использовать API:
+### Использовать API:
 * [Список данных](https://jsonplaceholder.typicode.com/posts )
 
-## Описание приложения:
+### Описание приложения:
 * При входе на страницу отображается таблица с данными.
 * На одной странице таблицы показывается только 10 записей.
 * Под таблицей располагаются элементы, показывающие количество страниц таблицы.
@@ -39,5 +39,5 @@
 * Страница таблицы должна отображаться в URL браузера.
 
 ### Ссылки:
-* :mag_right: [Открыть проект](https://gutmalina.github.io/route-display/)
+* :mag_right: [Открыть проект](https://gutmalina.github.io/table-sort-filter/)
 * :pushpin: [Макет в Figma](https://www.figma.com/file/amcWeZhjaZ0eSyYiSNG6vN/%D0%9C%D0%B0%D0%BA%D0%B5%D1%82-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8B?node-id=0%3A1)
